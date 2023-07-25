@@ -1,0 +1,16 @@
+{
+  "name": "espn_cric_scrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2",
+    "xlsx": "^0.18.0"
+  },
+  "description": "This project focusses on the core concepts of web scraping. The aim of the project is to compile the attacking statistics of every player of all teams that took part in the sports competition: IPL 2021 and store the resultant data i the form of excel sheet for easy data analysis. The data has been acquired from the ESPN Cricket database's coverage of the IPL 2021 competition."
+}
