@@ -1,4 +1,10 @@
-# IPL-Player-Level-Batting-Statistics
-This project focusses on the core concepts of web scraping. The aim of the project is to compile the attacking statistics of every player of all teams that took part in the sports competition: IPL 2021 and store the resultant data i the form of excel sheet for easy data analysis. The data has been acquired from the ESPN Cricket database's coverage of the IPL 2021 competition.
+# IPL Player Level Batting Statistics
 
-To run the program, I recommend using the VSCode application and simply typing "node './main.js'" in the integrated terminal allocated with the target directory destination. A new folder named 'IPL' is created thereafter. The folder is further composed of subfolders pertaining to each team that partticipated in the competition and inside the latter folders, player stats of the team are stored in the form of excel sheets.
+I'd like to introduce you to my project: IPL Player-Level Batting Statistics.
+This project is a practical application of web scraping techniques. It compiles detailed batting statistics for all the players who participated in the 2020 Indian Premier League (IPL) cricket tournament."
+
+1. We begin with a complete list of all matches played during the tournament, which is accessible through the 'View Results' feature."
+2. Player Statistics: "By selecting a specific match, you can access detailed batting statistics for each player. This includes key metrics such as runs scored, balls faced, fours, sixes, and the player's strike rate. Additionally, essential match details like the date, venue, and match type are also displayed."
+3. Efficient Data Compilation: "One of the project's strengths is its efficiency in compiling data. Instead of manually collecting data from each match for every player, our application creates a single Excel sheet with performance statistics for each player across all matches. This automation saves time and reduces the risk of errors."
+4. Technology Stack: "The project uses a technology stack that includes HTML, CSS, JavaScript, and the Node.js framework. To enhance functionality, we leverage libraries such as 'request.io', 'Cheerio.io', and 'xlsx.io' , request.io is a very popular node.js library that is used to fetch web page data, Cheerio.io (Cheerio) is used to parse and extract relevant information from HTML content, and xlsx.io (likely xlsx or similar) is used to store the collected data in Excel format. These libraries together help automate the process of gathering and organizing IPL player-level batting statistics efficiently.
+
